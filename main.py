@@ -44,4 +44,25 @@ app_nome.place(x=10, y=20)
 
 global tree
 
+
+
+
+######## configurando frame baixo #######
+
+#nome
+l_nome = Label(frame_baixo, text='Nome *', anchor=NW, font=('Ivy 10 bold'), bg=co1, fg=co4, relief='flat')
+l_nome.place(x=10, y=20)
+e_nome = Entry(frame_baixo, width=45, justify='left', relief='solid')
+e_nome.place(x=15, y=40)
+
+
+
+
+
+
+
+
+
+
+
 janela.mainloop()
